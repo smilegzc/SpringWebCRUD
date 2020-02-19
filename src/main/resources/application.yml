@@ -1,0 +1,10 @@
+spring:
+  messages:
+    basename: i18n/i18n_language
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+    date-format: yyyy-MM-dd
+  thymeleaf:
+    cache: false
